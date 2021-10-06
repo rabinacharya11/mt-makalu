@@ -1,0 +1,22 @@
+.ul {
+    animation:blink 16s linear .1s infinite running ;
+   width: 90vw;
+}
+.ul:hover {
+    -moz-animation-play-state: pause;
+    -webkit-animation-play-state: paused;
+    animation-play-state: paused;
+}
+
+@keyframes blink {
+    0%{
+        -moz-transform: translateX(100%);
+        -webkit-transform: translate(100%);
+    }
+    100%{
+        -moz-transform: translateX(-100%);
+        -webkit-transform: translate(-100%);
+    }
+
+    
+}
