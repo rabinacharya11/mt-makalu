@@ -1,6 +1,7 @@
 import { faFacebook, faInstagram, faLinkedin, faTwitter } from "@fortawesome/free-brands-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import SocialLInkGroup from "../SocialLInkGroup"
+import SocialLinksGroup from "../SocialLinksGroup"
+
 
 function ContactForm() {
     
@@ -32,14 +33,8 @@ function ContactForm() {
         <div className="p-2 w-full">
           <button className="flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Send Message</button>
                 </div>
-                <div className='w-full'>
-
-                <small className='flex w-full justify-center place-items-center '  >Find us on</small>
-                </div>
-        <div className=" w-full border-t border-gray-200 text-center">
-       
-                  <SocialLInkGroup/>
-        </div>
+               
+        
       </div>
     </div>
   </div>

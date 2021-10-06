@@ -8,7 +8,7 @@ function SingleEventAndNoticeCard( props) {
          justify-evenly  p-2 bg-red-500">
                 <span className="text-3xl">{props.title}</span>
           <span className="text-3xl ">
-            <FontAwesomeIcon icon={faArrowAltCircleRight} />
+            <FontAwesomeIcon icon={faArrowAltCircleRight} height='40' width='40' />
           </span>
         </div>
 

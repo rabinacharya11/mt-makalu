@@ -10,7 +10,7 @@ import EmailSubscription from "../components/EmailSubscription";
 
 function Home() {
   return (
-    <div>
+    <div className='relative' onScroll={()=>console.log('Scoll Started')}>
       <HeroSection />
       <Notice />
       <EventsAndNotice />
@@ -29,6 +29,7 @@ function Home() {
       <SectionHeader title="Subscribe Email Updates" subtitle="We will send you email notification whenever we have any notices or news to share with you."/>
      
      <EmailSubscription/>
+     
     </div>
   );
 }

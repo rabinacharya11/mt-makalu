@@ -1,6 +1,4 @@
-import SocialLInkGroup from "../SocialLInkGroup"
-
-
+import SocialLinksGroup from '../SocialLinksGroup'
 
 
 function SocialLinks() {
@@ -9,7 +7,7 @@ function SocialLinks() {
         <h1 className='font-bold text-green-500 text-lg'>Find Us On</h1>
         <span className='item-center inline w-20 h-0.5 bg-gradient-to-br from-red-200 to-blue-700'/>     
    
-<SocialLInkGroup/>
+<SocialLinksGroup/>
 
    
        
